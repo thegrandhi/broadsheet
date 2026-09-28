@@ -1,5 +1,7 @@
 # Broadsheet
 
+**Live demo: https://thegrandhi.github.io/broadsheet/**
+
 A static site generator for data-journalism explainers. Write a story in Markdown with a few `:::` blocks for charts and tables, and Broadsheet builds a newspaper-style page: a kicker, headline, deck and meta line, a narrow reading column, wide interactive graphics, and a methods section, in light and dark themes.
 
 - **Charts:** diverging bar charts, multi-series line charts and tile grid maps, drawn at build time as HTML/SVG. They show up without JavaScript and are made interactive in the browser.

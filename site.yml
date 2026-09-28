@@ -2,10 +2,10 @@
 title: Broadsheet
 description: Data stories and thought experiments, told with charts you can explore.
 # Full URL of the published site, used for canonical links (optional).
-# url: https://<your-user>.github.io/<repo>
+url: https://thegrandhi.github.io/broadsheet
 language: en
 # HTML shown in the footer (optional).
-footer: Built with <a href="https://github.com">Broadsheet</a>, a static site generator for data stories.
+footer: Built with <a href="https://github.com/thegrandhi/broadsheet">Broadsheet</a>, a static site generator for data stories.
 
 # Override chart colors (optional). Each needs a light and a dark version.
 # palette:
