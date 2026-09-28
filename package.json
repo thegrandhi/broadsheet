@@ -1,0 +1,23 @@
+{
+  "name": "broadsheet",
+  "version": "0.1.0",
+  "description": "A static site generator for data-journalism explainers: write Markdown, get newspaper-style interactive stories.",
+  "type": "module",
+  "bin": {
+    "broadsheet": "bin/broadsheet.js"
+  },
+  "scripts": {
+    "build": "node bin/broadsheet.js build",
+    "dev": "node bin/broadsheet.js dev",
+    "new": "node bin/broadsheet.js new",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^18.0.14",
+    "yaml": "^2.9.1"
+  }
+}

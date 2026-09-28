@@ -1,0 +1,31 @@
+id,name,col,row,viability,crisis_odds,survival_clock,vs_india,first_crisis,population_m,income_today,income_year20
+JK,Jammu & Kashmir,2,0,34,1.000,2,-0.694,Debt default,14.5,2000,1850
+PB,Punjab,1,1,52,1.000,8,-0.453,Debt default,31,2871,4991
+HP,Himachal Pradesh,2,1,52,1.000,5,-0.447,Debt default,7.5,3333,5940
+UK,Uttarakhand,3,1,54,0.943,12,-0.369,Debt default,12,3333,6315
+SK,Sikkim,5,1,41,1.000,3,-0.543,Debt default,0.7,8143,11040
+AR,Arunachal Pradesh,7,1,35,1.000,2,-0.678,Debt default,1.6,2875,2711
+RJ,Rajasthan,0,2,51,1.000,9,-0.449,Debt default,82,2256,3507
+HR,Haryana,1,2,80,0.190,21,-0.218,Water conflict,30,4433,10120
+DL,Delhi,2,2,73,0.785,9,-0.198,Food emergency,22,6091,13083
+UP,Uttar Pradesh,3,2,55,0.877,13,-0.431,Debt default,240,1229,1989
+BR,Bihar,4,2,39,1.000,6,-0.620,Debt default,130,785,780
+AS,Assam,6,2,58,0.875,14,-0.400,Debt default,36,1917,3383
+NL,Nagaland,7,2,35,1.000,2,-0.652,Debt default,2.3,2087,2192
+GJ,Gujarat,0,3,82,0.275,21,-0.150,Border war,72,4028,10261
+MP,Madhya Pradesh,1,3,63,0.375,21,-0.337,Debt default,87,1885,3539
+CG,Chhattisgarh,2,3,74,0.017,21,-0.245,Currency collapse,30,2033,4404
+JH,Jharkhand,3,3,58,0.518,20,-0.354,Food emergency,40,1325,2396
+WB,West Bengal,4,3,71,0.177,21,-0.300,Water conflict,100,2070,4741
+ME,Meghalaya,6,3,49,1.000,4,-0.494,Debt default,3.4,1618,2460
+MN,Manipur,7,3,34,1.000,3,-0.636,Debt default,3.3,1636,1828
+MH,Maharashtra,1,4,92,0.000,21,-0.043,,126,3730,11390
+TG,Telangana,2,4,83,0.225,21,-0.210,Water conflict,38,4605,11462
+OD,Odisha,3,4,79,0.000,21,-0.163,,46,2196,5741
+TR,Tripura,6,4,48,1.000,4,-0.513,Debt default,4.2,2286,3435
+MZ,Mizoram,7,4,34,1.000,2,-0.648,Debt default,1.3,2769,2897
+GA,Goa,0,5,74,0.238,21,-0.143,Food emergency,1.6,7500,19507
+KA,Karnataka,1,5,92,0.000,21,-0.057,,68,4412,13344
+AP,Andhra Pradesh,2,5,75,0.190,21,-0.242,Water conflict,54,3222,8061
+KL,Kerala,1,6,77,0.175,21,-0.182,Food emergency,36,3861,10737
+TN,Tamil Nadu,2,6,85,0.123,21,-0.137,Water conflict,77,4286,12661
