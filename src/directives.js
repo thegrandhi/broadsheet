@@ -11,7 +11,7 @@
 //
 // Opening fences may carry attributes: `:::callout width=wide id="key-point"`.
 
-export const YAML_BODY = new Set(['chart', 'table', 'timeline', 'stats', 'figure']);
+export const YAML_BODY = new Set(['chart', 'table', 'timeline', 'cards', 'stats', 'figure']);
 export const RAW_BODY = new Set(['html']);
 
 const FENCE = /^\s{0,3}(`{3,}|~{3,})/;

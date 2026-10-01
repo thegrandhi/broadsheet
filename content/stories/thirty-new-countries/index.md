@@ -116,14 +116,35 @@ shortNames:
   West Bengal: W. Bengal
 :::
 
+## Six ways a new country breaks
+
+The model watches for six kinds of crisis. Each one has a rule that sets it off, and each has happened to real countries in South Asia within living memory. The lists show which new countries hit each crisis most often under these assumptions. Select a country to find it in the other charts.
+
+:::cards
+data: data/crises.json
+columns: 3
+tone: neg
+:::
+
 ## One possible future
 
-The averages hide how messy any single future would be. Here is one run of the simulation, year by year.
+The averages hide how messy any single future would be. Here is one run of the simulation, year by year: every crisis, why it happened and what came next, along with the diplomacy, trade deals and migration around it.
 
 :::timeline
-data: data/events.json
-count: 71 crises in 17 countries over 20 years
-limit: 14
+data: data/future.json
+groupNoun: years
+limitGroups: 8
+quiet: A quiet year.
+filter: true
+filterAll: All countries
+majorLabel: Crises only
+quietFiltered: Nothing major for {name}.
+stats:
+  - { value: 71, label: major crises }
+  - { value: 17, label: countries hit }
+  - { value: 5, label: water talks collapse }
+  - { value: 6, label: customs unions }
+  - { value: 7, label: migration waves }
 :::
 
 ## Every country, compared
@@ -175,8 +196,8 @@ This is a deliberately simple model. It is meant to show which forces matter, no
 1. **Starting point.** Each state begins with its approximate 2023–24 population, economic output, debt, farm output and its net flow of money with the central government. It inherits a share of the national debt and splits India's foreign-exchange reserves.
 2. **Day-one shocks.** Transfers stop. Every new border adds trade friction, which is worse for landlocked countries because their exports must cross a neighbour. Each country must fund its own military, and more so on the Pakistan and China borders.
 3. **Each year.** A shared monsoon draw hits farm-heavy economies. Relations between neighbours drift, which sets how easily a country can trade, reach a port and get river water from upstream. Growth, debt, reserves and political stability update from those.
-4. **Crises.** A country defaults if debt passes 100 percent of GDP, or 80 percent with thin reserves. Its currency collapses if reserves fall below a month of imports. A drought becomes a food emergency when a country can't grow or buy enough food, and a water conflict when an upstream neighbour is hostile. Low stability means mass unrest. Hostile borders carry a small yearly risk of war.
-5. **Many futures.** The model runs 400 times with different random draws. The map, table and statistics show medians; the survival chart shows how often each country avoids a crisis.
+4. **Crises.** A country defaults if debt passes 100 percent of GDP, or 85 percent with thin reserves. Its currency collapses if reserves fall below a month of imports. A drought becomes a food emergency when a country can't grow or buy enough food, and a water conflict when an upstream neighbour is hostile. Low stability means mass unrest. Hostile borders carry a small yearly risk of war.
+5. **Many futures.** The model runs 400 times with different random draws. The map, table and statistics show medians; the survival chart and the crisis cards show how often each country avoids or hits a crisis.
 
 ### What it leaves out
 
@@ -186,5 +207,5 @@ The violence and migration of an actual breakup, which would likely be far worse
 :::sources
 ### Sources for starting figures
 
-Reserve Bank of India, Handbook of Statistics on Indian States; Fifteenth Finance Commission report and state budget documents; Ministry of Statistics and Programme Implementation state GDP series; population projections from the National Commission on Population. All values are rounded and some are estimates. Download the data: [states.csv](data/states.csv), [results.csv](data/results.csv), [survival.csv](data/survival.csv).
+Reserve Bank of India, Handbook of Statistics on Indian States; Fifteenth Finance Commission report and state budget documents; Ministry of Statistics and Programme Implementation state GDP series; population projections from the National Commission on Population. All values are rounded and some are estimates. Download the data: [states.csv](data/states.csv), [results.csv](data/results.csv), [survival.csv](data/survival.csv), [crises.json](data/crises.json), [future.json](data/future.json).
 :::

@@ -7,9 +7,11 @@ import { renderBar } from './components/bar.js';
 import { renderTiles } from './components/tiles.js';
 import { renderLineChart } from './components/line.js';
 import { renderTable } from './components/table.js';
-import { renderTimeline, renderStats, renderImage } from './components/blocks.js';
+import { renderStats, renderImage } from './components/blocks.js';
+import { renderTimeline } from './components/timeline.js';
+import { renderCards } from './components/cards.js';
 
-export const slugify = s => String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '')
+export const slugify = s => String(s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
   .replace(/<[^>]+>/g, '').replace(/&[a-z]+;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 export function createMarkdown() {
@@ -92,9 +94,10 @@ function renderNode(node, ctx) {
     case 'table': return renderTable(cfg, ctx);
     case 'timeline': return renderTimeline(cfg, ctx);
     case 'stats': return renderStats(cfg, ctx);
+    case 'cards': return renderCards(cfg, ctx);
     case 'figure': return renderImage(cfg, ctx);
   }
   throw new Error(`line ${node.line}: unknown block ":::${name}"`);
 }
 
-export const KNOWN_BLOCKS = [...Object.keys(PROSE), 'html', 'chart', 'table', 'timeline', 'stats', 'figure'];
+export const KNOWN_BLOCKS = [...Object.keys(PROSE), 'html', 'chart', 'table', 'timeline', 'cards', 'stats', 'figure'];

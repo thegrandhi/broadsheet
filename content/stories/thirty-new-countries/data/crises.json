@@ -1,0 +1,246 @@
+[
+ {
+  "title": "Debt default",
+  "stat": "**15** countries hit this in most futures · **15.5** expected across all 30",
+  "fields": [
+   {
+    "label": "What sets it off",
+    "text": "Debt passes 100% of GDP, or 85% while reserves are also running out. Lenders stop rolling over its bonds."
+   },
+   {
+    "label": "It has happened before",
+    "text": "Sri Lanka defaulted on its foreign debt in 2022, the first default in its history. Lebanon defaulted in 2020.",
+    "quote": true
+   },
+   {
+    "label": "Most exposed · share of futures with at least one",
+    "format": "percent",
+    "empty": "Rare under these assumptions.",
+    "bars": [
+     {
+      "name": "Jammu & Kashmir",
+      "value": 1
+     },
+     {
+      "name": "Punjab",
+      "value": 1
+     },
+     {
+      "name": "Himachal Pradesh",
+      "value": 1
+     },
+     {
+      "name": "Sikkim",
+      "value": 1
+     },
+     {
+      "name": "Arunachal Pradesh",
+      "value": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Currency collapse",
+  "stat": "**14** countries hit this in most futures · **13.1** expected across all 30",
+  "fields": [
+   {
+    "label": "What sets it off",
+    "text": "Reserves fall below one month of imports, so the country can no longer pay for fuel, fertiliser or medicine from abroad."
+   },
+   {
+    "label": "It has happened before",
+    "text": "In early 2023 Pakistan's central-bank reserves fell to roughly three weeks of imports before it reached a new IMF deal.",
+    "quote": true
+   },
+   {
+    "label": "Most exposed · share of futures with at least one",
+    "format": "percent",
+    "empty": "Rare under these assumptions.",
+    "bars": [
+     {
+      "name": "Manipur",
+      "value": 0.995
+     },
+     {
+      "name": "Bihar",
+      "value": 0.99
+     },
+     {
+      "name": "Nagaland",
+      "value": 0.99
+     },
+     {
+      "name": "Mizoram",
+      "value": 0.988
+     },
+     {
+      "name": "Sikkim",
+      "value": 0.983
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Food emergency",
+  "stat": "**1** country hits this in most futures · **2.5** expected across all 30",
+  "fields": [
+   {
+    "label": "What sets it off",
+    "text": "A failed monsoon hits a country that cannot grow enough food and cannot buy it, because neighbours restrict grain sales or reserves are thin."
+   },
+   {
+    "label": "It has happened before",
+    "text": "After the droughts of 1965 and 1966, India depended on shipments of American wheat, a period remembered as living 'ship to mouth'.",
+    "quote": true
+   },
+   {
+    "label": "Most exposed · share of futures with at least one",
+    "format": "percent",
+    "empty": "Rare under these assumptions.",
+    "bars": [
+     {
+      "name": "Delhi",
+      "value": 0.767
+     },
+     {
+      "name": "Himachal Pradesh",
+      "value": 0.395
+     },
+     {
+      "name": "Jharkhand",
+      "value": 0.297
+     },
+     {
+      "name": "Meghalaya",
+      "value": 0.247
+     },
+     {
+      "name": "Goa",
+      "value": 0.228
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Water conflict",
+  "stat": "**0** countries hit this in most futures · **1.3** expected across all 30",
+  "fields": [
+   {
+    "label": "What sets it off",
+    "text": "In a drought, a hostile upstream neighbour holds back river water from a country that relies on it."
+   },
+   {
+    "label": "It has happened before",
+    "text": "The Cauvery dispute already turns violent in dry years: Bengaluru saw riots in 2016 after the Supreme Court ordered Karnataka to release water to Tamil Nadu.",
+    "quote": true
+   },
+   {
+    "label": "Most exposed · share of futures with at least one",
+    "format": "percent",
+    "empty": "Rare under these assumptions.",
+    "bars": [
+     {
+      "name": "Telangana",
+      "value": 0.225
+     },
+     {
+      "name": "Andhra Pradesh",
+      "value": 0.19
+     },
+     {
+      "name": "Haryana",
+      "value": 0.182
+     },
+     {
+      "name": "West Bengal",
+      "value": 0.172
+     },
+     {
+      "name": "Tamil Nadu",
+      "value": 0.122
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Mass unrest",
+  "stat": "**0** countries hit this in most futures · **0.1** expected across all 30",
+  "fields": [
+   {
+    "label": "What sets it off",
+    "text": "Political stability, which falls with weak growth, food shortages and earlier crises, drops so low that the government falls."
+   },
+   {
+    "label": "It has happened before",
+    "text": "Sri Lanka's 2022 protests forced its president to flee and resign. Bangladesh's government fell to a protest movement in 2024.",
+    "quote": true
+   },
+   {
+    "label": "Most exposed · share of futures with at least one",
+    "format": "percent",
+    "empty": "Rare under these assumptions.",
+    "bars": [
+     {
+      "name": "Bihar",
+      "value": 0.043
+     },
+     {
+      "name": "Manipur",
+      "value": 0.022
+     },
+     {
+      "name": "Nagaland",
+      "value": 0.02
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Border war",
+  "stat": "**0** countries hit this in most futures · **1.8** expected across all 30",
+  "fields": [
+   {
+    "label": "What sets it off",
+    "text": "Countries on the Pakistan, China or Myanmar borders face a small yearly risk of fighting. About a third of clashes escalate into war."
+   },
+   {
+    "label": "It has happened before",
+    "text": "India fought Pakistan at Kargil in 1999 and clashed with China in the Galwan Valley in 2020. A small new country would face them alone.",
+    "quote": true
+   },
+   {
+    "label": "Most exposed · share of futures with at least one",
+    "format": "percent",
+    "empty": "Rare under these assumptions.",
+    "bars": [
+     {
+      "name": "Jammu & Kashmir",
+      "value": 0.39
+     },
+     {
+      "name": "Arunachal Pradesh",
+      "value": 0.21
+     },
+     {
+      "name": "Gujarat",
+      "value": 0.18
+     },
+     {
+      "name": "Manipur",
+      "value": 0.175
+     },
+     {
+      "name": "Punjab",
+      "value": 0.158
+     }
+    ]
+   }
+  ]
+ }
+]

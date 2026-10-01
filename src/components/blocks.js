@@ -1,26 +1,5 @@
-// Timeline (event log), stat tiles, and image figures.
-import { esc, keyOf, figure, rowsOf, widthClass } from './util.js';
-
-export function renderTimeline(cfg, ctx) {
-  const items = rowsOf(cfg.rows ?? cfg.items, 'timeline', cfg.line);
-  const f = { when: 'when', sub: 'sub', kind: 'kind', title: 'title', detail: 'detail', soft: 'soft', key: 'key', ...(cfg.fields || {}) };
-  const li = it => {
-    const soft = it[f.soft] === true || it[f.soft] === 'true' || it[f.soft] === 'yes';
-    const key = it[f.key] ? ` data-key="${esc(keyOf(it[f.key]))}"` : '';
-    return `<li${key}><div class="y">${esc(it[f.when] ?? '')}${it[f.sub] ? `<small>${esc(it[f.sub])}</small>` : ''}</div><div>` +
-      (it[f.kind] ? `<div class="k${soft ? ' soft' : ''}">${esc(it[f.kind])}</div>` : '') +
-      `<div class="t">${ctx.inline(String(it[f.title] ?? ''))}</div>` +
-      (it[f.detail] ? `<div class="d">${ctx.inline(String(it[f.detail]))}</div>` : '') + '</div></li>';
-  };
-  const limit = cfg.limit ?? items.length;
-  let body = `<ol class="log">${items.slice(0, limit).map(li).join('\n')}</ol>`;
-  if (items.length > limit) {
-    body += `<details class="more"><summary>Show all ${items.length} events</summary>` +
-      `<ol class="log" start="${limit + 1}">${items.slice(limit).map(li).join('\n')}</ol></details>`;
-  }
-  if (cfg.count) body = `<p class="note count">${ctx.inline(cfg.count)}</p>` + body;
-  return figure({ ...cfg, width: widthClass(cfg.width, 'col'), body, ctx });
-}
+// Stat tiles and image figures.
+import { esc, figure, widthClass } from './util.js';
 
 export function renderStats(cfg, ctx) {
   const parts = [];

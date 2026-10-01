@@ -161,3 +161,36 @@ for (const fig of $$('.tablefig')) {
   const check = () => fig.classList.toggle('overflowing', wrap.scrollWidth > wrap.clientWidth + 1);
   new ResizeObserver(check).observe(wrap);
 }
+
+/* Timelines: collapse long logs behind "Show all", and filter by key / major. */
+for (const fig of $$('[data-timeline]')) {
+  const more = fig.querySelector('.tl-more');
+  if (more && fig.querySelector('[data-extra]')) {
+    fig.classList.add('collapsed');
+    more.hidden = false;
+    more.addEventListener('click', () => { fig.classList.remove('collapsed'); more.hidden = true; });
+  }
+  const tools = fig.querySelector('.tl-tools');
+  if (!tools) continue;
+  tools.hidden = false;
+  const select = tools.querySelector('.tl-filter');
+  const major = tools.querySelector('.tl-major');
+  const apply = () => {
+    const key = select?.value || '';
+    const onlyMajor = !!major?.checked;
+    for (const item of $$('.tl-item', fig)) {
+      const keys = item.dataset.keys ? item.dataset.keys.split('|') : [];
+      const show = (!key || keys.includes(key)) && (!onlyMajor || item.dataset.major === '1');
+      item.classList.toggle('filtered', !show);
+    }
+    const name = select?.selectedOptions[0]?.textContent || '';
+    for (const group of $$('.tl-group', fig)) {
+      const quiet = group.querySelector('.tl-quiet');
+      const visible = group.querySelector('.tl-item:not(.filtered)');
+      quiet.hidden = !!visible;
+      quiet.textContent = key ? fig.dataset.quietFiltered.replace('{name}', name) : fig.dataset.quiet;
+    }
+  };
+  select?.addEventListener('change', apply);
+  major?.addEventListener('change', apply);
+}

@@ -74,7 +74,8 @@ positiveLabel: Gains money
 | `:::chart` `type: line` | YAML | Multi-series lines with crosshair, tooltips and end labels. |
 | `:::chart` `type: tiles` | YAML | Tile grid map colored on a diverging or sequential scale. |
 | `:::table` | YAML | Sortable table with a sticky first column and color swatches. |
-| `:::timeline` | YAML | Event log with "Show all". |
+| `:::timeline` | YAML | Event log, flat or grouped by year, with "What happens next" notes, filters and "Show all". |
+| `:::cards` | YAML | Card grid with labelled fields, quotations and ranked mini bars. |
 | `:::stats` | YAML | Stat tiles and a hero number. |
 | `:::figure` | YAML | An image with a title and caption. |
 | `:::callout`, `:::note` | Markdown | A highlighted takeaway, or small print. |

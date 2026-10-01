@@ -97,7 +97,7 @@ test('the example site builds', () => {
     const { stories } = build({ root: ROOT, out, quiet: true });
     assert.ok(stories.length >= 2);
     const page = fs.readFileSync(path.join(out, 'thirty-new-countries', 'index.html'), 'utf8');
-    for (const cls of ['tiles-svg', 'bars diverging', 'data-linechart', 'bs-table', 'class="log"', 'col callout']) {
+    for (const cls of ['tiles-svg', 'bars diverging', 'data-linechart', 'bs-table', 'class="tl-group"', 'class="cardgrid"', 'col callout']) {
       assert.ok(page.includes(cls), `story page contains ${cls}`);
     }
     for (const f of ['assets/runtime.js', 'assets/line-svg.js', 'assets/format.js', 'assets/broadsheet.css', 'thirty-new-countries/data/states.csv', '.nojekyll']) {
@@ -106,4 +106,27 @@ test('the example site builds', () => {
   } finally {
     fs.rmSync(out, { recursive: true, force: true });
   }
+});
+
+test('cards render fields, quotes and linked mini bars', () => {
+  const html = render(':::cards\ntone: neg\nitems:\n  - title: Debt default\n    stat: "**2** hit"\n    fields:\n      - { label: Rule, text: Debt over 100% }\n      - { label: Before, text: Sri Lanka 2022, quote: true }\n      - { label: Exposed, format: percent, bars: [{ name: Punjab, value: 0.5 }] }\n:::');
+  assert.match(html, /class="ccard tone-neg"/);
+  assert.match(html, /<dd class="quote">/);
+  assert.match(html, /class="mb"[^>]*data-key="punjab"/);
+  assert.match(html, /width:50\.0%/);
+  assert.match(html, />50%</);
+});
+
+test('grouped timeline: headings, quiet groups, filters and collapse', () => {
+  const html = render([
+    ':::timeline', 'filter: true', 'limitGroups: 1', 'quiet: A quiet year.', 'groups:',
+    '  - { title: Year 1, note: Dry, tone: bad, items: [{ title: Default, next: Cuts, keys: [Punjab], major: true }] }',
+    '  - { title: Year 2, items: [] }', ':::',
+  ].join('\n'));
+  assert.match(html, /class="tl-note bad"/);
+  assert.match(html, /<b>What happens next:<\/b> Cuts/);
+  assert.match(html, /data-keys="punjab" data-major="1"/);
+  assert.match(html, /<section class="tl-group" data-extra>/);
+  assert.match(html, /<p class="tl-quiet">A quiet year\.<\/p>/);
+  assert.match(html, /<option value="punjab">Punjab<\/option>/);
 });

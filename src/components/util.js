@@ -24,8 +24,8 @@ export function rowsOf(data, name, line) {
 }
 
 // Shared figure frame: title, subtitle, body, note, source, optional data table.
-export function figure({ width, id, cls = '', title, subtitle, note, source, body, dataTable, ctx }) {
-  const parts = [`<figure class="fig ${width}${cls ? ' ' + cls : ''}"${id ? ` id="${esc(id)}"` : ''}>`];
+export function figure({ width, id, cls = '', title, subtitle, note, source, body, dataTable, attrs = '', ctx }) {
+  const parts = [`<figure class="fig ${width}${cls ? ' ' + cls : ''}"${id ? ` id="${esc(id)}"` : ''}${attrs}>`];
   if (title) parts.push(`<p class="gfx-title">${ctx.inline(title)}</p>`);
   if (subtitle) parts.push(`<p class="gfx-sub">${ctx.inline(subtitle)}</p>`);
   parts.push(body);

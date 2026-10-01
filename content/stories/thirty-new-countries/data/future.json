@@ -1,0 +1,1119 @@
+[
+ {
+  "title": "Year 1",
+  "note": "Monsoon 8% above normal",
+  "items": [
+   {
+    "kind": "Diplomacy",
+    "title": "Water talks between Jharkhand and West Bengal collapse",
+    "body": "Relations soured almost as soon as the new borders went up. Without a treaty, West Bengal has no guaranteed share of the Damodar in a dry year, and Jharkhand is under pressure from its own farmers to keep more.",
+    "next": "Both sides post police at the river's barrages. The next drought will test it.",
+    "tone": "soft",
+    "keys": [
+     "West Bengal",
+     "Jharkhand"
+    ]
+   },
+   {
+    "kind": "Diplomacy",
+    "title": "Water talks between Maharashtra and Telangana collapse",
+    "body": "Relations soured almost as soon as the new borders went up. Without a treaty, Telangana has no guaranteed share of the Godavari in a dry year, and Maharashtra is under pressure from its own farmers to keep more.",
+    "next": "Both sides post police at the river's barrages. The next drought will test it.",
+    "tone": "soft",
+    "keys": [
+     "Maharashtra",
+     "Telangana"
+    ]
+   },
+   {
+    "kind": "Diplomacy",
+    "title": "Water talks between Karnataka and Telangana collapse",
+    "body": "Relations soured almost as soon as the new borders went up. Without a treaty, Telangana has no guaranteed share of the Krishna in a dry year, and Karnataka is under pressure from its own farmers to keep more.",
+    "next": "Both sides post police at the river's barrages. The next drought will test it.",
+    "tone": "soft",
+    "keys": [
+     "Telangana",
+     "Karnataka"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 2",
+  "note": "Monsoon 14% above normal",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Jammu & Kashmir defaults on its debt",
+    "body": "Debt reached 109% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and defence alone takes about 5.4% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.5% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Arunachal Pradesh defaults on its debt",
+    "body": "Debt reached 107% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 30% of its economy, and defence alone takes about 3.6% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.3% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Nagaland defaults on its debt",
+    "body": "Debt reached 107% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 26% of its economy, and defence alone takes about 2.8% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 1.7% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 3",
+  "note": "Monsoon 10% below normal · drought in 10 countries",
+  "tone": "bad",
+  "items": [
+   {
+    "kind": "Trade",
+    "title": "Haryana and Uttar Pradesh form a customs union",
+    "body": "After 3 years of queues at the new border posts, the two drop tariffs and inspections. Uttar Pradesh gets a steady supply of grain from Haryana's farms.",
+    "next": "Trade between them recovers toward what it was inside India, though the rest of the old single market stays split.",
+    "tone": "good",
+    "keys": [
+     "Haryana",
+     "Uttar Pradesh"
+    ]
+   },
+   {
+    "kind": "Trade",
+    "title": "Chhattisgarh and Maharashtra form a customs union",
+    "body": "After 3 years of queues at the new border posts, the two drop tariffs and inspections. The bigger prize is for Chhattisgarh: duty-free access to Maharashtra's ports.",
+    "next": "Trade between them recovers toward what it was inside India, though the rest of the old single market stays split.",
+    "tone": "good",
+    "keys": [
+     "Chhattisgarh",
+     "Maharashtra"
+    ]
+   },
+   {
+    "kind": "Diplomacy",
+    "title": "Water talks between Chhattisgarh and Odisha collapse",
+    "body": "Relations have been sliding since independence. Without a treaty, Odisha has no guaranteed share of the Mahanadi in a dry year, and Chhattisgarh is under pressure from its own farmers to keep more.",
+    "next": "Both sides post police at the river's barrages. The next drought will test it.",
+    "tone": "soft",
+    "keys": [
+     "Chhattisgarh",
+     "Odisha"
+    ]
+   },
+   {
+    "kind": "Trade",
+    "title": "Odisha and Andhra Pradesh form a customs union",
+    "body": "After 3 years of queues at the new border posts, the two drop tariffs and inspections. Odisha gets a steady supply of grain from Andhra Pradesh's farms.",
+    "next": "Trade between them recovers toward what it was inside India, though the rest of the old single market stays split.",
+    "tone": "good",
+    "keys": [
+     "Odisha",
+     "Andhra Pradesh"
+    ]
+   },
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Jammu & Kashmir",
+    "body": "With its viability score down to 34, workers head for Punjab, which scores 66. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Sikkim defaults on its debt",
+    "body": "Debt reached 103% of GDP and reserves covered only 0.9 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 20% of its economy, and defence alone takes about 3.3% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 2.5% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Manipur defaults on its debt",
+    "body": "Debt reached 110% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 24% of its economy, and defence alone takes about 2.8% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Mizoram defaults on its debt",
+    "body": "Debt reached 117% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 28% of its economy, and defence alone takes about 2.8% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 4.3% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 4",
+  "note": "Monsoon near normal · drought in Assam",
+  "items": [
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Nagaland",
+    "body": "With its viability score down to 28, workers head for Assam, which scores 52. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Tripura defaults on its debt",
+    "body": "Debt reached 106% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and growth has averaged only 2.2% a year lately.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Tripura"
+    ]
+   },
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Mizoram",
+    "body": "With its viability score down to 33, workers head for Tripura, which scores 53. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 5",
+  "note": "Monsoon 20% above normal",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Jammu & Kashmir defaults on its debt",
+    "body": "Debt reached 105% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and defence alone takes about 5.4% of GDP. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.0% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Himachal Pradesh defaults on its debt",
+    "body": "Debt reached 102% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 9% of its economy, and every export has to cross a neighbour's border.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 2.3% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Himachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Arunachal Pradesh defaults on its debt",
+    "body": "Debt reached 108% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 30% of its economy, and defence alone takes about 3.6% of GDP. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Nagaland defaults on its debt",
+    "body": "Debt reached 104% of GDP and reserves covered only 1.1 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 26% of its economy, and defence alone takes about 2.8% of GDP. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.9% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Meghalaya defaults on its debt",
+    "body": "Debt reached 105% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 16% of its economy, and every export has to cross a neighbour's border.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 2.7% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Meghalaya"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 6",
+  "note": "Monsoon 19% above normal",
+  "items": [
+   {
+    "kind": "Diplomacy",
+    "title": "Water talks between Arunachal Pradesh and Assam collapse",
+    "body": "Relations have been sliding since independence. Without a treaty, Assam has no guaranteed share of the Brahmaputra in a dry year, and Arunachal Pradesh is under pressure from its own farmers to keep more.",
+    "next": "Both sides post police at the river's barrages. The next drought will test it.",
+    "tone": "soft",
+    "keys": [
+     "Assam",
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Sikkim defaults on its debt",
+    "body": "Debt reached 94% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 20% of its economy, and defence alone takes about 3.3% of GDP. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Bihar defaults on its debt",
+    "body": "Debt reached 100% of GDP, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 10% of its economy, and every export has to cross a neighbour's border.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.2% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Bihar"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Mizoram defaults on its debt",
+    "body": "Debt reached 105% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 28% of its economy, and defence alone takes about 2.8% of GDP. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.9% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 7",
+  "note": "Monsoon 6% below normal",
+  "items": [
+   {
+    "kind": "Trade",
+    "title": "Karnataka and Goa form a customs union",
+    "body": "After 7 years of queues at the new border posts, the two drop tariffs and inspections between them.",
+    "next": "Trade between them recovers toward what it was inside India, though the rest of the old single market stays split.",
+    "tone": "good",
+    "keys": [
+     "Karnataka",
+     "Goa"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Manipur defaults on its debt",
+    "body": "Debt reached 104% of GDP and reserves covered only 0.7 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 24% of its economy, and defence alone takes about 2.8% of GDP. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.9% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   },
+   {
+    "kind": "Border clash",
+    "title": "Skirmishes on Mizoram's Myanmar border",
+    "body": "A short exchange of fire that stops short of war.",
+    "next": "Extra defence spending and nervous investors cost about 3 points of growth this year.",
+    "tone": "soft",
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 8",
+  "note": "Monsoon 8% below normal · drought in 9 countries",
+  "tone": "bad",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Jammu & Kashmir defaults on its debt",
+    "body": "Debt reached 94% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and defence alone takes about 5.4% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Border clash",
+    "title": "Skirmishes on Sikkim's China border",
+    "body": "A short exchange of fire that stops short of war.",
+    "next": "Extra defence spending and nervous investors cost about 3 points of growth this year.",
+    "tone": "soft",
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Sikkim",
+    "body": "With its viability score down to 32, workers head for West Bengal, which scores 76. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Arunachal Pradesh defaults on its debt",
+    "body": "Debt reached 100% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 30% of its economy, and defence alone takes about 3.6% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 2.7% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Assam defaults on its debt",
+    "body": "Debt reached 93% of GDP and reserves covered only 1.2 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 9% of its economy, and every export has to cross a neighbour's border.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.4% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Assam"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Nagaland defaults on its debt",
+    "body": "Debt reached 91% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 26% of its economy, and defence alone takes about 2.8% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.6% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Water conflict",
+    "title": "Telangana and Maharashtra clash over the Godavari",
+    "body": "In a drought year, Maharashtra kept more of the Godavari for its own farms. Telangana depends on upstream rivers for about 30% of its water, and there is no longer a national court to referee.",
+    "next": "Farmers block border crossings and crops fail in the downstream districts. The economy grows just 0.8% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Telangana"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 9",
+  "note": "Monsoon near normal",
+  "items": [
+   {
+    "kind": "Currency collapse",
+    "title": "Himachal Pradesh's currency collapses",
+    "body": "Foreign-exchange reserves fell to 1.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's second major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 3.8% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Himachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Sikkim defaults on its debt",
+    "body": "Debt reached 87% of GDP and reserves covered only 0.5 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 20% of its economy, and defence alone takes about 3.3% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Arunachal Pradesh",
+    "body": "With its viability score down to 32, workers head for Assam, which scores 53. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Rajasthan defaults on its debt",
+    "body": "Debt reached 96% of GDP and reserves covered only 1.2 months of imports, and lenders stopped buying its bonds. The root cause: losing transfers worth 3.5% of its economy forced years of deficits, and defence alone takes about 2.7% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.7% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Rajasthan"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Bihar's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.4 months of imports, as money sent home by workers in neighbouring countries dried up. Fuel, fertiliser and medicine run short and prices jump. It is the country's second major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 0.1% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Bihar"
+    ]
+   },
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Manipur",
+    "body": "With its viability score down to 35, workers head for Assam, which scores 51. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Manipur"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Mizoram defaults on its debt",
+    "body": "Debt reached 101% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 28% of its economy, and defence alone takes about 2.8% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.6% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 10",
+  "note": "Monsoon 18% above normal",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Punjab defaults on its debt",
+    "body": "Debt reached 103% of GDP and reserves covered only 1.6 months of imports, and lenders stopped buying its bonds. The root cause: losing transfers worth 2% of its economy forced years of deficits, and defence alone takes about 2.7% of GDP.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Punjab"
+    ]
+   },
+   {
+    "kind": "Border war",
+    "title": "Gujarat is drawn into a border war",
+    "body": "Clashes on the Pakistan border escalate into weeks of fighting. As a small independent country, Gujarat has no larger army to call on; its defence budget was already about 2.7% of GDP.",
+    "next": "Defence spending jumps, foreign investors pull out, and the economy grows just 3.1% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Gujarat"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Manipur's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's third major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 3.0% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 11",
+  "note": "Monsoon near normal",
+  "items": [
+   {
+    "kind": "Currency collapse",
+    "title": "Jammu & Kashmir's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 1.4% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Arunachal Pradesh defaults on its debt",
+    "body": "Debt reached 88% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 30% of its economy, and defence alone takes about 3.6% of GDP. It is the country's fourth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.6% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Nagaland's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy shrinks 1.0% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Tripura defaults on its debt",
+    "body": "Debt reached 100% of GDP and reserves covered only 1.4 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and every export has to cross a neighbour's border. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.4% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Tripura"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 12",
+  "note": "Monsoon 11% below normal · drought in 9 countries",
+  "tone": "bad",
+  "items": [
+   {
+    "kind": "Currency collapse",
+    "title": "Sikkim's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, after a drought forced costly food imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 1.6% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Food emergency",
+    "title": "Drought brings a food emergency to Delhi",
+    "body": "The monsoon over Delhi came in about 23% below normal. It grows only about 5% of the food it eats, and Haryana, its least friendly neighbour, has restricted grain exports.",
+    "next": "Rationing starts and food prices rise sharply. Stability falls and the economy grows just 2.8% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Delhi"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Bihar defaults on its debt",
+    "body": "Debt reached 94% of GDP and reserves covered only 0.3 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 10% of its economy, and every export has to cross a neighbour's border. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 1.0% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Bihar"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Meghalaya defaults on its debt",
+    "body": "Debt reached 97% of GDP and reserves covered only 1.4 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 16% of its economy, and every export has to cross a neighbour's border. It is the country's second major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.4% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Meghalaya"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Mizoram's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy shrinks 1.2% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 13",
+  "note": "Monsoon near normal · drought in Rajasthan, Bihar, Karnataka",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Uttarakhand defaults on its debt",
+    "body": "Debt reached 89% of GDP and reserves covered only 0.5 months of imports, and lenders stopped buying its bonds. The root cause: losing transfers worth 3% of its economy forced years of deficits, and every export has to cross a neighbour's border.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 2.4% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Uttarakhand"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Rajasthan's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.3 months of imports, after a drought forced costly food imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's second major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy shrinks 0.8% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Rajasthan"
+    ]
+   },
+   {
+    "kind": "Migration",
+    "title": "Young people start leaving Bihar",
+    "body": "With its viability score down to 32, workers head for West Bengal, which scores 76. Inside India they could move freely; now they need work permits.",
+    "next": "Money sent home helps families, but the country loses the workers it needs to recover.",
+    "tone": "soft",
+    "keys": [
+     "Bihar"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Manipur defaults on its debt",
+    "body": "Debt reached 119% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 24% of its economy, and defence alone takes about 2.8% of GDP. It is the country's fourth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.9% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 14",
+  "note": "Monsoon 11% below normal · drought in 11 countries",
+  "tone": "bad",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Jammu & Kashmir defaults on its debt",
+    "body": "Debt reached 126% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and defence alone takes about 5.4% of GDP. It is the country's fifth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 2.5% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Himachal Pradesh defaults on its debt",
+    "body": "Debt reached 101% of GDP and reserves covered only 1.2 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 9% of its economy, and every export has to cross a neighbour's border. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.5% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Himachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Arunachal Pradesh's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, after a drought forced costly food imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fifth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 0.2% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Nagaland defaults on its debt",
+    "body": "Debt reached 114% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 26% of its economy, and defence alone takes about 2.8% of GDP. It is the country's fifth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 2.8% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Tripura's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.4 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's third major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy shrinks 0.6% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Tripura"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 15",
+  "note": "Monsoon 16% above normal",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Sikkim defaults on its debt",
+    "body": "Debt reached 99% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 20% of its economy, and defence alone takes about 3.3% of GDP. It is the country's fifth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.4% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Bihar's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 1.9% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Bihar"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Mizoram defaults on its debt",
+    "body": "Debt reached 118% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 28% of its economy, and defence alone takes about 2.8% of GDP. It is the country's fifth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.6% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 16",
+  "note": "Monsoon near normal · drought in West Bengal",
+  "items": [
+   {
+    "kind": "Trade",
+    "title": "Maharashtra and Goa form a customs union",
+    "body": "After 16 years of queues at the new border posts, the two drop tariffs and inspections between them.",
+    "next": "Trade between them recovers toward what it was inside India, though the rest of the old single market stays split.",
+    "tone": "good",
+    "keys": [
+     "Maharashtra",
+     "Goa"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Punjab's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.9 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's second major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 0.8% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Punjab"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Uttarakhand's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.1 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's second major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 3.2% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Uttarakhand"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Rajasthan defaults on its debt",
+    "body": "Debt reached 89% of GDP and reserves covered only 0.1 months of imports, and lenders stopped buying its bonds. The root cause: losing transfers worth 3.5% of its economy forced years of deficits, and defence alone takes about 2.7% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 2.5% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Rajasthan"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Manipur defaults on its debt",
+    "body": "Debt reached 89% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 24% of its economy, and defence alone takes about 2.8% of GDP. It is the country's fifth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.8% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 17",
+  "note": "Monsoon 9% below normal · drought in 9 countries",
+  "tone": "bad",
+  "items": [
+   {
+    "kind": "Debt default",
+    "title": "Jammu & Kashmir defaults on its debt",
+    "body": "Debt reached 97% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 18% of its economy, and defence alone takes about 5.4% of GDP. It is the country's sixth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.1% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Himachal Pradesh's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, after a drought forced costly food imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 1.1% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Himachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Arunachal Pradesh defaults on its debt",
+    "body": "Debt reached 106% of GDP and reserves covered only 0.3 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 30% of its economy, and defence alone takes about 3.6% of GDP. It is the country's sixth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 0.5% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Nagaland defaults on its debt",
+    "body": "Debt reached 88% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 26% of its economy, and defence alone takes about 2.8% of GDP. It is the country's sixth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 3.0% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Meghalaya's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.7 months of imports, after a drought forced costly food imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's third major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy shrinks 0.3% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Meghalaya"
+    ]
+   },
+   {
+    "kind": "Border war",
+    "title": "Manipur is drawn into a border war",
+    "body": "Armed groups based across the Myanmar border launch a sustained offensive. As a small independent country, Manipur has no larger army to call on; its defence budget was already about 2.8% of GDP. It is the country's sixth major crisis since independence.",
+    "next": "Defence spending jumps, foreign investors pull out, and the economy shrinks 3.6% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   },
+   {
+    "kind": "Water conflict",
+    "title": "Telangana and Karnataka clash over the Krishna",
+    "body": "In a drought year, Karnataka kept more of the Krishna for its own farms. Telangana depends on upstream rivers for about 30% of its water, and there is no longer a national court to referee. It is the country's second major crisis since independence.",
+    "next": "Farmers block border crossings and crops fail in the downstream districts. The economy grows just 2.1% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Telangana"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 18",
+  "note": "Monsoon near normal",
+  "items": [
+   {
+    "kind": "Currency collapse",
+    "title": "Sikkim's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's sixth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 1.8% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Sikkim"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Bihar defaults on its debt",
+    "body": "Debt reached 86% of GDP and reserves covered only 0.9 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 10% of its economy, and growth has averaged only 2.5% a year lately. It is the country's fifth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 0.6% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Bihar"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Assam's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.9 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's second major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 3.3% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Assam"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Mizoram defaults on its debt",
+    "body": "Debt reached 95% of GDP and reserves covered only 0.0 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 28% of its economy, and defence alone takes about 2.8% of GDP. It is the country's sixth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy shrinks 2.2% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Mizoram"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 19",
+  "note": "Monsoon 12% above normal",
+  "items": [
+   {
+    "kind": "Currency collapse",
+    "title": "Rajasthan's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.5 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's fourth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 3.6% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Rajasthan"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Year 20",
+  "note": "Monsoon 6% above normal",
+  "items": [
+   {
+    "kind": "Trade",
+    "title": "Uttar Pradesh and Jharkhand form a customs union",
+    "body": "After 20 years of queues at the new border posts, the two drop tariffs and inspections. Jharkhand gets a steady supply of grain from Uttar Pradesh's farms.",
+    "next": "Trade between them recovers toward what it was inside India, though the rest of the old single market stays split.",
+    "tone": "good",
+    "keys": [
+     "Uttar Pradesh",
+     "Jharkhand"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Jammu & Kashmir's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's sixth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 3.1% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Jammu & Kashmir"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Punjab defaults on its debt",
+    "body": "Debt reached 94% of GDP and reserves covered only 1.4 months of imports, and lenders stopped buying its bonds. The root cause: losing transfers worth 2% of its economy forced years of deficits, and defence alone takes about 2.7% of GDP. It is the country's third major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 2.0% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Punjab"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Arunachal Pradesh's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.1 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's sixth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 1.2% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Arunachal Pradesh"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Nagaland's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's sixth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy shrinks 0.3% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Nagaland"
+    ]
+   },
+   {
+    "kind": "Debt default",
+    "title": "Meghalaya defaults on its debt",
+    "body": "Debt reached 93% of GDP and reserves covered only 1.3 months of imports, and lenders stopped buying its bonds. The root cause: the central transfers it lost at independence were worth 16% of its economy, and every export has to cross a neighbour's border. It is the country's fourth major crisis since independence.",
+    "next": "Creditors accept a 40% write-down in exchange for spending cuts. The economy grows just 1.7% this year, and borrowing stays expensive for years.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Meghalaya"
+    ]
+   },
+   {
+    "kind": "Currency collapse",
+    "title": "Manipur's currency collapses",
+    "body": "Foreign-exchange reserves fell to 0.0 months of imports, because it earns too little from exports to pay for what it imports. Fuel, fertiliser and medicine run short and prices jump. It is the country's sixth major crisis since independence.",
+    "next": "An emergency loan restores about two and a half months of reserves but adds roughly 8% of GDP to its debt. The economy grows just 0.6% this year.",
+    "tone": "crisis",
+    "major": true,
+    "keys": [
+     "Manipur"
+    ]
+   }
+  ]
+ }
+]

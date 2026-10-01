@@ -209,21 +209,94 @@ columns:
 
 ## Timelines
 
+A flat timeline lists events with a date column on the left:
+
 :::timeline
 limit: 2
 items:
-  - { when: Year 1, kind: Diplomacy, soft: true, title: Talks over river water break down, detail: Relations sink to their lowest point. }
-  - { when: Year 3, kind: Debt default, title: The smallest country defaults on its debt, detail: Debt had reached 107% of GDP. }
-  - { when: Year 6, kind: Mass unrest, title: Protests topple a government, detail: Years of weak growth bring crowds into the streets. }
+  - { when: Year 1, kind: Diplomacy, tone: soft, title: Talks over river water break down, body: Relations sink to their lowest point. }
+  - { when: Year 3, kind: Debt default, title: The smallest country defaults on its debt, body: Debt had reached 107% of GDP. }
+  - { when: Year 6, kind: Recovery, tone: good, title: The economy climbs back, body: Growth returns to 5% a year. }
+:::
+
+A grouped timeline puts events under headings, one per year for example. Each event can have a body and a "What happens next" note. Add `filter: true` to let readers narrow it to one country or to major events only.
+
+:::timeline
+filter: true
+filterAll: All places
+majorLabel: Major events only
+quiet: A quiet year.
+quietFiltered: Nothing for {name}.
+stats:
+  - { value: 2, label: major events }
+  - { value: 1, label: trade deal }
+groups:
+  - title: Year 1
+    note: Monsoon 14% below normal
+    tone: bad
+    items:
+      - { kind: Food emergency, title: Drought hits Eastvale, body: It grows only half of the food it eats., next: Rationing starts and prices rise., keys: [Eastvale], major: true }
+      - { kind: Trade, tone: good, title: Northport and Riverton form a customs union, body: Tariffs and inspections end., keys: [Northport, Riverton] }
+  - title: Year 2
+    note: Monsoon near normal
+    items: []
+  - title: Year 3
+    items:
+      - { kind: Debt default, title: Lakeside defaults on its debt, body: Debt reached 104% of GDP., next: Creditors accept a write-down., keys: [Lakeside], major: true }
 :::
 
 ```yaml
 :::timeline
-data: data/events.json         # or items: [...]
-limit: 14                      # the rest hide behind "Show all"
-fields: { when: year }         # rename fields if your data uses other names
+data: data/future.json         # a list of groups, or of flat items
+limitGroups: 8                 # the rest hide behind "Show all"
+groupNoun: years               # "Show all 20 years"
+filter: true                   # country dropdown + "major only" checkbox
+filterAll: All countries
+majorLabel: Crises only
+quiet: A quiet year.           # shown for groups with no events
+quietFiltered: Nothing major for {name}.
+nextLabel: "What happens next:"
+stats:                         # summary numbers above the log
+  - { value: 71, label: major crises }
 :::
 ```
+
+Each group is `{ title, note, tone: bad, items: [...] }`. Each item can have `kind`, `title`, `body`, `next`, `tone` (`crisis`, `soft` or `good`), `keys` (the places it involves) and `major: true`. Flat items also take `when`, and `limit` sets how many to show at first.
+
+## Cards
+
+A card grid sets several items side by side. Each card can have labelled fields: plain text, a quotation set in serif, or a short ranked list of mini bars. The bars link to other charts by name.
+
+:::cards
+columns: 2
+tone: neg
+items:
+  - title: Debt default
+    stat: "**2** places hit this in most futures"
+    fields:
+      - { label: What sets it off, text: Debt passes 100% of GDP. }
+      - { label: It has happened before, text: Sri Lanka defaulted on its foreign debt in 2022., quote: true }
+      - label: Most exposed
+        format: percent
+        bars:
+          - { name: Lakeside, value: 0.92 }
+          - { name: Eastvale, value: 0.64 }
+  - title: Food emergency
+    stat: "**1** place hits this in most futures"
+    fields:
+      - { label: What sets it off, text: A failed monsoon in a place that can't grow or buy enough food. }
+      - { label: Most exposed, format: percent, bars: [], empty: Rare under these assumptions. }
+:::
+
+```yaml
+:::cards
+data: data/crises.json         # or items: [...]
+columns: 3                     # 2 on tablets, 1 on phones
+tone: neg                      # dot and bar color: neg, pos, accent or none
+:::
+```
+
+Each card is `{ title, stat, text, tone, fields: [...] }`. A field is `{ label, text }`, `{ label, text, quote: true }` or `{ label, bars: [{ name, value }], format, max, empty }`.
 
 ## Stats
 
