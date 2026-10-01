@@ -14,7 +14,7 @@ export function formatDate(d) {
   return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 }
 
-function shell({ site, root, title, description, url, body, head = '', foot = '', dev }) {
+function shell({ site, root, title, description, url, body, head = '', foot = '', dev, type = 'website', image, published, touchIcon }) {
   const fullTitle = title ? `${title} · ${site.title}` : site.title;
   return `<!doctype html>
 <html lang="${esc(site.language || 'en')}">
@@ -23,9 +23,20 @@ function shell({ site, root, title, description, url, body, head = '', foot = ''
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${esc(fullTitle)}</title>
 ${description ? `<meta name="description" content="${esc(description)}">` : ''}
+<meta property="og:type" content="${type}">
+<meta property="og:site_name" content="${esc(site.title)}">
 <meta property="og:title" content="${esc(title || site.title)}">
 ${description ? `<meta property="og:description" content="${esc(description)}">` : ''}
 ${url ? `<meta property="og:url" content="${esc(url)}"><link rel="canonical" href="${esc(url)}">` : ''}
+${image ? `<meta property="og:image" content="${esc(image.url)}">
+<meta property="og:image:width" content="${image.width || 1200}">
+<meta property="og:image:height" content="${image.height || 630}">
+<meta property="og:image:alt" content="${esc(image.alt || title || site.title)}">` : ''}
+<meta name="twitter:card" content="${image ? 'summary_large_image' : 'summary'}">
+<meta name="twitter:title" content="${esc(title || site.title)}">
+${description ? `<meta name="twitter:description" content="${esc(description)}">` : ''}
+${image ? `<meta name="twitter:image" content="${esc(image.url)}">` : ''}
+${published ? `<meta property="article:published_time" content="${esc(published)}">` : ''}
 <meta name="color-scheme" content="light dark">
 ${THEME_BOOT}
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +44,7 @@ ${THEME_BOOT}
 <link rel="stylesheet" href="${FONTS}">
 <link rel="stylesheet" href="${root}assets/broadsheet.css">
 <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
+${touchIcon ? `<link rel="apple-touch-icon" href="${root}assets/apple-touch-icon.png">` : ''}
 ${head}
 </head>
 <body>
@@ -54,7 +66,7 @@ ${dev ? LIVE_RELOAD : ''}
 `;
 }
 
-export function storyPage({ site, story, bodyHtml, inline, dev }) {
+export function storyPage({ site, story, bodyHtml, inline, dev, touchIcon }) {
   const fm = story.meta;
   const meta = [];
   if (fm.byline) meta.push(`<span>By <b>${esc(fm.byline)}</b></span>`);
@@ -72,10 +84,11 @@ ${meta.length ? `<div class="meta">${meta.join('')}</div>` : ''}
     site, root: '../', title: fm.title, description: fm.description || stripTags(inline(fm.deck || '')),
     url: site.url ? `${site.url.replace(/\/$/, '')}/${story.slug}/` : null,
     body: `<article>${header}\n${bodyHtml}</article>`, head, foot, dev,
+    type: 'article', image: story.image, published: story.isoDate, touchIcon,
   });
 }
 
-export function indexPage({ site, stories, inline, dev }) {
+export function indexPage({ site, stories, inline, dev, image, touchIcon }) {
   const card = (s, lead) => {
     const fm = s.meta;
     return `<article class="card${lead ? ' lead' : ''}"><a href="${s.slug}/">
@@ -94,7 +107,7 @@ ${site.description ? `<p class="front-desc">${inline(site.description)}</p>` : '
 ${lead ? card(lead, true) : '<p class="empty">No stories yet. Run <code>npm run new "My first story"</code> to start one.</p>'}
 ${rest.length ? `<div class="grid">${rest.map(s => card(s, false)).join('\n')}</div>` : ''}
 </section>`;
-  return shell({ site, root: '', title: null, description: site.description, url: site.url || null, body, dev });
+  return shell({ site, root: '', title: null, description: site.description, url: site.url || null, body, dev, image, touchIcon });
 }
 
 const stripTags = s => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();

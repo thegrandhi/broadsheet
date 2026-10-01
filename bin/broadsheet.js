@@ -9,6 +9,7 @@ const HELP = `broadsheet — static site generator for data stories
 
 Usage:
   broadsheet build [--drafts] [--out dist]   Build the site into dist/
+                  [--no-og]                 (skip link-preview images)
   broadsheet dev [--port 4321]               Build, serve and rebuild on save
   broadsheet new "Story title"               Start a new story in content/stories/
 
@@ -30,7 +31,7 @@ const root = path.resolve(flag('root') || process.cwd());
 try {
   switch (cmd) {
     case 'build':
-      build({ root, drafts: !!flag('drafts'), out: flag('out') });
+      await build({ root, drafts: !!flag('drafts'), out: flag('out'), og: !flag('no-og') });
       break;
     case 'dev':
       dev({ root, port: Number(flag('port')) || 4321 });

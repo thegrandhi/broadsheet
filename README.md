@@ -115,6 +115,15 @@ palette:
 
 Files in `static/` are copied to the site root as-is, for example `CNAME` or `robots.txt`.
 
+### Link previews
+
+When you share a story on WhatsApp, iMessage, Slack, X or LinkedIn, the preview shows a 1200×630 image. `npm run build` draws one for every story with headless Chrome: the kicker, headline and a thumbnail of the story's first chart, in the site's own fonts. It also writes the Open Graph and Twitter tags that point to it. GitHub's build machines include Chrome. To build locally you need Google Chrome installed, or `CHROME_PATH` set to a Chromium-based browser.
+
+- Set `url` in `site.yml`. Preview images need absolute URLs.
+- To use your own image instead, put it in the story folder and add `image: cover.png` (and optionally `imageAlt:`) to the front matter.
+- `npm run build -- --no-og` skips the images. `npm run dev` skips them too, so rebuilds stay fast.
+- Apps cache previews for a while. If a link was shared before the image existed, use Facebook's Sharing Debugger or LinkedIn's Post Inspector to refresh it, or share the link with `?v=2` on the end.
+
 ## Deploying
 
 `.github/workflows/deploy.yml` tests and builds the site on every push to `main` and publishes `dist/` to GitHub Pages. In the repository, go to **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**.

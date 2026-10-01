@@ -91,10 +91,10 @@ test('front matter offsets error lines to the file', () => {
   assert.equal(lineOffset, 3);
 });
 
-test('the example site builds', () => {
+test('the example site builds', async () => {
   const out = fs.mkdtempSync(path.join(os.tmpdir(), 'broadsheet-'));
   try {
-    const { stories } = build({ root: ROOT, out, quiet: true });
+    const { stories } = await build({ root: ROOT, out, quiet: true, og: false });
     assert.ok(stories.length >= 2);
     const page = fs.readFileSync(path.join(out, 'thirty-new-countries', 'index.html'), 'utf8');
     for (const cls of ['tiles-svg', 'bars diverging', 'data-linechart', 'bs-table', 'class="tl-group"', 'class="cardgrid"', 'col callout']) {
@@ -129,4 +129,24 @@ test('grouped timeline: headings, quiet groups, filters and collapse', () => {
   assert.match(html, /<section class="tl-group" data-extra>/);
   assert.match(html, /<p class="tl-quiet">A quiet year\.<\/p>/);
   assert.match(html, /<option value="punjab">Punjab<\/option>/);
+});
+
+test('link-preview tags use absolute image URLs', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'broadsheet-og-'));
+  try {
+    fs.writeFileSync(path.join(root, 'site.yml'), 'title: Test\nurl: https://example.com/site/\n');
+    const dir = path.join(root, 'content', 'stories', 'demo');
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.md'), '---\ntitle: Demo\ndeck: A short deck.\ndate: 2026-01-02\nimage: cover.png\n---\nHello.\n');
+    fs.writeFileSync(path.join(dir, 'cover.png'), 'png');
+    await build({ root, quiet: true, og: false });
+    const page = fs.readFileSync(path.join(root, 'dist', 'demo', 'index.html'), 'utf8');
+    assert.match(page, /<meta property="og:image" content="https:\/\/example\.com\/site\/demo\/cover\.png">/);
+    assert.match(page, /<meta name="twitter:card" content="summary_large_image">/);
+    assert.match(page, /<meta property="og:type" content="article">/);
+    assert.match(page, /<meta property="article:published_time" content="2026-01-02">/);
+    assert.ok(fs.existsSync(path.join(root, 'dist', 'demo', 'cover.png')));
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
 });

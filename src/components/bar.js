@@ -41,6 +41,7 @@ export function renderBar(cfg, ctx) {
     );
   }
   out.push('</div>');
+  ctx.thumbs?.push(out.join(''));
   const dv = cfg.dataView === false ? '' : dataView(
     [{ key: cfg.label, label: cfg.labelTitle || cfg.label, format: 'text' }, { key: cfg.value, label: cfg.valueLabel || cfg.value, format: fmt }], rows);
   return figure({ ...cfg, width: widthClass(cfg.width, 'mid'), body: out.join(''), dataTable: dv, ctx });

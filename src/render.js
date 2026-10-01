@@ -42,7 +42,7 @@ const PROSE = {
 export function renderStory(source, { baseDir, palettes, lineOffset = 0 }) {
   const md = createMarkdown();
   const ctx = {
-    baseDir, palettes,
+    baseDir, palettes, thumbs: [],
     md: text => md.parse(text),
     inline: text => md.parseInline(String(text)),
   };
@@ -52,7 +52,7 @@ export function renderStory(source, { baseDir, palettes, lineOffset = 0 }) {
     const inner = sec.map(n => renderNode(n, ctx)).join('\n');
     return `<section class="sec">\n${inner}\n</section>`;
   }).join('\n\n');
-  return { html };
+  return { html, thumb: ctx.thumbs[0] || null };
 }
 
 function renderNode(node, ctx) {

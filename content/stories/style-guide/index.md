@@ -27,6 +27,7 @@ meta:                                  # optional facts under the rule
 draft: true                            # hidden from the published build
 scripts: [sim.js]                      # optional custom JS in the story folder
 styles: [extra.css]                    # optional custom CSS in the story folder
+image: cover.png                       # optional link-preview image (otherwise one is drawn for you)
 ---
 ```
 

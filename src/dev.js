@@ -17,15 +17,20 @@ export function dev({ root = process.cwd(), port = 4321 } = {}) {
   const clients = new Set();
   let lastError = null;
 
-  const rebuild = () => {
+  let running = false, again = false;
+  const rebuild = async () => {
+    if (running) { again = true; return; }
+    running = true;
     try {
-      build({ root, drafts: true, dev: true });
+      await build({ root, drafts: true, dev: true });
       lastError = null;
     } catch (e) {
       lastError = e;
       console.error(`\n✗ ${e.message}\n`);
     }
+    running = false;
     for (const res of clients) res.write('data: reload\n\n');
+    if (again) { again = false; rebuild(); }
   };
   rebuild();
 

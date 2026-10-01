@@ -90,6 +90,7 @@ export function renderLineChart(cfg, ctx) {
     legend = `<div class="legend keys">${series.map(s => `<span class="key"><i class="dual" style="--cl:${s.cl};--cd:${s.cd}"></i>${esc(s.name)}</span>`).join('')}</div>`;
   }
 
+  ctx.thumbs?.push(`<div class="linechart">${renderLine(spec, 1000)}</div>`);
   const json = JSON.stringify(spec).replace(/</g, '\\u003c');
   const body = `${legend}<div class="linechart" data-linechart><div class="lc-plot">${renderLine(spec, 1000)}</div><script type="application/json">${json}</script></div>`;
   const cols = [{ key: cfg.x, label: cfg.xName || cfg.x, format: cfg.xFormat ?? 'text' }, ...series.map(s => ({ key: s.name, label: s.name, format: yFormat }))];

@@ -50,5 +50,6 @@ export function renderTiles(cfg, ctx) {
   const dv = cfg.dataView === false ? '' : dataView(
     [{ key: nameK, label: cfg.nameTitle || 'Name', format: 'text' }, { key: cfg.value, label: cfg.valueLabel || cfg.value, format: fmt }], rows);
   const body = `<div class="tiles" style="max-width:${Math.max(320, W + 8)}px">${out.join('')}</div>${legend}`;
+  ctx.thumbs?.push(`<div class="tiles">${out.join('')}</div>`);
   return figure({ ...cfg, width: widthClass(cfg.width, 'mid'), body, dataTable: dv, ctx });
 }
